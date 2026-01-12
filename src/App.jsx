@@ -1,13 +1,10 @@
-import Quiz from "./components/Quiz";
+import UserList from "./components/UserList";
 
-function App() {
+export default function App() {
   return (
-    <Quiz
-      question="Сколько будет 3 + 3?"
-      options={["5", "6", "7", "8"]}
-      correctIndex={1}
-    />
+    <div style={{ padding: 20 }}>
+      <h1>Карточки пользователей</h1>
+      <UserList />
+    </div>
   );
 }
-
-export default App;
