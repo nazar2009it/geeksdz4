@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 14px;
+  padding: 16px;
+  width: 320px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.temp {
+  margin-top: 10px;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.desc {
+  margin-top: 4px;
+  opacity: 0.75;
+  font-size: 14px;
+}
